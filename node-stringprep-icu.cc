@@ -208,7 +208,7 @@ NAN_METHOD(ToUnicode)
                                    dest, destLen,
                                    UIDNA_DEFAULT,
                                    NULL, &error);
-        
+
         if (error == U_BUFFER_OVERFLOW_ERROR)
           {
             // retry with a dest buffer twice as large
@@ -248,4 +248,4 @@ extern "C" void init(Handle<Object> target)
   NODE_SET_METHOD(target, "toUnicode", ToUnicode);
 }
 
-NODE_MODULE(node_stringprep, init)
+NODE_MODULE(node_stringprep_icu, init)

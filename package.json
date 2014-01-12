@@ -1,6 +1,6 @@
 {
-  "name": "node-stringprep",
-  "version": "0.1.12",
+  "name": "node-stringprep-icu",
+  "version": "0.1.0",
   "main": "index.js",
   "description": "ICU StringPrep profiles",
   "keywords": [
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "path": "git://github.com/astro/node-stringprep.git"
+    "path": "git://github.com/node-xmpp/node-stringprep-icu.git"
   },
-  "homepage": "http://github.com/astro/node-stringprep",
-  "bugs": "http://github.com/astro/node-stringprep/issues",
+  "homepage": "http://github.com/node-xmpp/node-stringprep-icu",
+  "bugs": "http://github.com/astro/node-stringprep-icu/issues",
   "author": {
     "name": "Astro",
     "email": "astro@spaceboyz.net",

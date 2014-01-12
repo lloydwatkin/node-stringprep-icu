@@ -1,8 +1,6 @@
-# node-stringprep #
+# node-stringprep-icu #
 
-[![Build Status](https://travis-ci.org/node-xmpp/node-stringprep.png)](https://travis-ci.org/node-xmpp/node-stringprep)
-
-[Flattr this!](https://flattr.com/thing/44598/node-stringprep)
+[![Build Status](https://travis-ci.org/node-xmpp/node-stringprep-icu.png)](https://travis-ci.org/node-xmpp/node-stringprep-icu)
 
 ## Purpose ##
 
@@ -10,7 +8,7 @@ Exposes predefined Unicode normalization functions that are required by many pro
 
 ## Installation ##
 
-    npm i node-stringprep
+    npm i node-stringprep-icu
 
 ### Debian ###
 
@@ -40,8 +38,8 @@ If experiencing issues with 'homebrew' installing version 50.1 of icu4c, try the
 
 ## Usage ##
 
-    var StringPrep = require('node-stringprep').StringPrep;
+    var StringPrep = require('node-stringprep-icu').StringPrep;
     var prep = new StringPrep('nameprep');
     prep.prepare('Äffchen')  // => 'äffchen'
 
-For a list of supported profiles, see [node-stringprep.cc](http://github.com/astro/node-stringprep/blob/master/node-stringprep.cc#L160)
+For a list of supported profiles, see [node-stringprep-icu.cc](http://github.com/node-xmpp/node-stringprep-icu/blob/master/node-stringprep-icu.cc#L160)
