@@ -1,5 +1,7 @@
 # node-stringprep-icu #
 
+__You may prefer [node-stringprep](https://github.com/node-xmpp/node-stringprep.git) which also contains javascript fallbacks where possible.__
+
 [![Build Status](https://travis-ci.org/node-xmpp/node-stringprep-icu.png)](https://travis-ci.org/node-xmpp/node-stringprep-icu)
 
 ## Purpose ##
