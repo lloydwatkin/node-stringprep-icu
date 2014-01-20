@@ -10,6 +10,11 @@
         '<!(node -e "require(\'nan\')")'
       ],
       'conditions': [
+        ['OS=="freebsd"', {
+          'include_dirs': [
+              '/usr/local/include'
+          ],
+        }],
         ['OS=="mac"', {
           'include_dirs': [
               '/opt/local/include'
