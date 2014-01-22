@@ -1,3 +1,7 @@
+# Deprecated
+
+__This was a short term solution for failed installs of [node-stringprep](https://github.com/node-xmpp/node-stringprep.git). `node-stringprep` now gracefully handles failed installs, therefore this is no longer required.__
+
 # node-stringprep-icu #
 
 __You may prefer [node-stringprep](https://github.com/node-xmpp/node-stringprep.git) which also contains javascript fallbacks where possible.__
